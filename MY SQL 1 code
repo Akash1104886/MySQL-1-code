@@ -51,6 +51,8 @@ select * from employeetable where  first_name="Dinesh";
 select * from employeetable where first_name="Dinesh" or first_name="Roy";
 -- Get employee details from employee table whose employee name are not “Dinesh” and “Roy”
 select * from employeetable where not first_name="Dinesh" and not first_name="Roy";
+-- get all the details of  the employee whose salary is greater than 60000
+select * from employeetable  where salary>60000;
 
 
 
